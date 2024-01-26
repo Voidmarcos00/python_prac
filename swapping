@@ -1,0 +1,15 @@
+# using 3rd variable
+
+a=12
+b=34
+c=a   # c=12
+a=b   # a=34 
+b=c   # b=12
+print(a,b)
+
+# without using 3rd variable
+
+a=12
+b=34
+a,b=b,a
+print(a,b)
