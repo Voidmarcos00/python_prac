@@ -1,0 +1,12 @@
+# using expoentional
+
+num=int(input("enter a number :"))
+sr=num**(0.5)
+print("square root of number is :",sr)
+
+# using math module
+
+import math
+num= int(input("enter a number:"))
+sr=math.sqrt(num)
+print("square root of number is :",sr)
